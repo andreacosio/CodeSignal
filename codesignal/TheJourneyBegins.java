@@ -9,13 +9,9 @@ public class TheJourneyBegins {
 	}
 	 Scanner sc = new Scanner(System.in);
 	int solution(int year) {
-		int y=sc.nextInt();
-		
-		//if (y>0){
-			int o= y/100+1;
-			y=(int) Math.ceil(o);
+		return year;
 			
-			System.out.println(y);
+			
 		
 	}
 
